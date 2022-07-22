@@ -1,0 +1,173 @@
+.view {
+    display: none;
+}
+/**********MAIN**********/
+.page-header {
+    border-bottom: 2px solid #263238 !important;
+    padding-bottom: 0!important;
+}
+.page-header > .heading_border{
+    color: #fff;
+    background-color: #263238;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+}
+#mainnav-menu ul a {
+    padding: 10px 20px 12px 50px;
+}
+#mainnav-menu ul>li>a:before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0da";
+    margin-right: 10px;
+}
+/**********PAGINATION**********/
+.pagination {
+    margin-top: 0px;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover,
+.pagination>li>a, .pagination>li>span {
+    border: 1px solid #263238;
+    color: #263238;
+}
+.pagination>.active>a, .pagination>.active>a:hover, .pagination>.active>a:focus, .pagination>.active>span, .pagination>.active>span:hover, .pagination>.active>span:focus {
+    background-color: #263238;
+    border-color: #263238;
+}
+.pagination>li>a:hover, .pagination>li>a:focus, .pagination>li>span:hover, .pagination>li>span:focus {
+    color: #ffffff!important;
+    background-color: #666;
+    border-color: #263238;
+}
+
+/**********TABLE**********/
+table.table>thead {
+    background: #3b4d56;
+}
+#container table.table>thead>tr>th {
+    color: #ffffff;
+    font-size: .9em;
+}
+.table>tbody>tr>td{
+    font-size: .9em;
+    color: #3b4d56;
+    vertical-align: middle;
+}
+.table>tbody>tr>td.actions {
+    width: 1px;
+    white-space: nowrap;
+}
+.table>tbody>tr>td.actions i {
+    font-size: 1.2em;
+}
+
+/**********MODAL**********/
+.modal-backdrop.in {
+    opacity: 0 !important;
+}
+.modal-dialog {
+    -webkit-box-shadow: 0px 0px 43px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 43px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 43px -1px rgba(0,0,0,0.75);
+}
+#modalSuccess .modal-dialog {
+    border: 4px solid #02B700;
+}
+#modalDelete .modal-dialog {
+    border: 4px solid #b92c28;
+}
+/**********INPUT**********/
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/**********ALERT**********/
+.alertMessageError {
+    display: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 1.1em;
+}
+
+/**********BUTTON**********/
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    background-color: #008dff;
+    border-color: #008dff;
+}
+
+div.bootstrap-select button.btn.btn-default{
+    background-color: #ffffff;
+    height: 32px;
+}
+
+.btn.pull-right, .btn-group.pull-right {
+    margin: 0;
+}
+
+.dropdown-menu:not(.head-list)>li>a {
+    margin: 3px 0;
+}
+.dropdown-menu>li>a {
+    color: #263238;
+}
+.dropdown-menu:not(.head-list)>li>a:hover {
+    background-color: #263238;
+    color: #fff;
+}
+/**********PANEL**********/
+.panel {
+    transition: .5s;
+}
+.panel:hover {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -moz-box-shadow: 0 20px 20px rgba(0,0,0,.1);
+    webkit-box-shadow: 0 0 25px -5px #9e9c9e;
+    box-shadow: 0 0 25px -5px #9e9c9e;
+}
+.panel-default>.panel-heading {
+    border-color: none!important;
+    padding: 10px 15px;
+    background: #263238;
+    border-bottom: 1px solid #263238;
+    color: #ffffff;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.panel-heading ul.options>li>a {
+    color: #ffffff;
+}
+.panel-heading ul.options>li>a:hover {
+    color: #0087f5;
+}
+.panel-body {
+    padding-bottom: 0!important;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.panel-footer {
+    background-color: #fff;
+    border-top: 1px solid #ecf0f5;
+}
+/**********TABS**********/
+div.tabs div.tab-content {
+    border: 1px solid;
+    background-color: #ffffff;
+}
+div.tabs ul.nav-tabs li.active a {
+    color: #fff;
+    background-color: rgb(38, 50, 56);
+    border-top: rgb(85, 153, 255) 2px solid !important;
+}
+/**********OTHERS**********/
+.switch {
+    padding-right: 0;
+}

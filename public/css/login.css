@@ -1,0 +1,36 @@
+html{
+    height: 100%;
+    overflow: hidden;
+}
+.authentication {
+    background: #2980b9;
+    background: -webkit-linear-gradient(to bottom, #2c3e50, #2980b9);
+    background: linear-gradient(to bottom, #2c3e50, #2980b9);
+}
+.sky-form header{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: transparent;
+}
+form.boxed{
+    border-radius: 5px;
+    background-color: #ffffff80 !important;
+}
+.sky-form .btn {
+    margin: 0;
+}
+.logo {
+    width: 300px;
+    height: 162px;
+}
+.sky-form .checkbox input + i:after {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    margin-right: 10px;
+}
