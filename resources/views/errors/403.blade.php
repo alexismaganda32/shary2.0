@@ -4,4 +4,4 @@
 
 @section('messageError', 'Acceso denegado. No tiene permisos para ver esta página.')
 
-@section('error', 'maganda')
+@section('error', 'Forbidden')
