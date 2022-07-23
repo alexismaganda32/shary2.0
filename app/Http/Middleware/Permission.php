@@ -49,7 +49,7 @@ class Permission
             abort(404);
         }
 
-        if ($role_id == 0) { //ACCESO PARA TODO AL SUPERADMINISTRADOR
+        if ($role_id == 1) { //ACCESO PARA TODO AL SUPERADMINISTRADOR
             return $next($request);
         }
 
